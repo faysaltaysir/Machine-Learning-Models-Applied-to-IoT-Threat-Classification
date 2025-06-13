@@ -1,22 +1,42 @@
-# Machine-Learning-Models-Applied-to-IoT-Threat-Classification
+# Machine Learning Models Applied to IoT Threat Classification
 
-Tools & Technologies: Python, Pandas, Scikit-learn, Matplotlib, LabelEncoder, Random Forest, Logistic Regression, K-Nearest Neighbors (KNN), Naive Bayes, Decision Tree
+This project presents a comparative analysis of different machine learning algorithms to classify IoT (Internet of Things) threats using a real-world dataset. The goal is to identify the most accurate model to help detect cybersecurity attacks in IoT networks effectively.
 
-Project Overview:
-Conducted a comprehensive comparative analysis of multiple machine learning models to classify IoT threats using a real-world dataset. The goal was to identify the most accurate and efficient algorithm for detecting cybersecurity threats in IoT networks.
+## 🔍 Overview
 
-Responsibilities & Contributions:
-Performed data preprocessing and feature selection on a labeled IoT dataset using Python and Pandas.
+IoT devices are increasingly used in critical environments, but they often lack proper security measures. This makes them vulnerable to various cyber threats. In this project, we implement and compare several machine learning models to classify different types of network threats based on captured traffic data.
 
-Encoded categorical features using LabelEncoder and handled class imbalance through train_test_split.
+## 📁 Dataset
 
-Implemented and trained various ML models: Random Forest, Logistic Regression, KNN, Naive Bayes, and Decision Tree.
+The dataset used in this project is a labeled collection of network traffic features that indicate either normal behavior or specific types of attacks in an IoT environment. It contains multiple columns of numerical and categorical features.
 
-Evaluated models using metrics including accuracy, confusion matrix, classification report, and ROC curve analysis.
+> **Note:** The dataset used is assumed to be already cleaned and labeled.
 
-Visualized results with Matplotlib, identifying Random Forest as the top-performing model with 99.91% accuracy.
+- Features: 37 (after preprocessing)
+- Classes: Multiple threat types including Normal, DoS, Probe, R2L, U2R, etc.
+- Size: [Include dataset size if known]
 
-Documented the complete workflow and contributed to the final academic report and presentation.
+## 🛠️ Technologies & Libraries
 
-Outcome:
-Achieved near-perfect accuracy with the Random Forest classifier and highlighted key trade-offs between performance and interpretability across models. Provided insights into applying ML for real-time IoT threat detection systems.
+- **Programming Language:** Python
+- **Libraries:**
+  - `pandas` – for data manipulation
+  - `numpy` – numerical operations
+  - `scikit-learn` – machine learning models and metrics
+  - `matplotlib` / `seaborn` – data visualization
+
+## 🚀 Models Implemented
+
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Naive Bayes
+- Decision Tree
+- Random Forest
+
+## ⚙️ Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/IoT-Threat-Classification.git
+   cd IoT-Threat-Classification
